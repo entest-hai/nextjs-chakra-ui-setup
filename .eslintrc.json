@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "extends": "next",
+    "rules": {
+      "quotes":[
+        "error",
+        "single"
+      ],
+      "indent":[
+        "error",
+        2
+      ],
+      "no-unused-vars": [
+        "off",
+        {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_"
+        }
+      ],
+      "react/display-name": 0
+    }
+  }
